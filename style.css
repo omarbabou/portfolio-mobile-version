@@ -8,7 +8,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: Poppins;
+    font-family: 'Poppins';
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
@@ -19,7 +19,7 @@ h2 {
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     color: #172B4D;
 }
 
@@ -27,7 +27,7 @@ h3 {
     font-size: 13px;
     font-weight: 600;
     line-height: 16px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     color: #344563;
 }
 
@@ -35,15 +35,20 @@ h3 {
     font-size: 13px;
     font-weight: 600;
     line-height: 16px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     color: #7A869A;
+ }
+
+ .project-card {
+    width: 90%;
+    margin: 0 auto;
  }
 
  .project-card p { 
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     color: #344563;
 }
 
@@ -52,7 +57,7 @@ h3 {
     font-size: 12px;
     font-weight: 500;
     line-height: 16px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03;
     color: #6070FF;
     background: #EBEBFF;
     padding: 7px;
@@ -68,7 +73,7 @@ h3 {
     font-size: 17px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03;
     color: #396DF2;
     border: 1px solid #396DF2;
     padding: 10px;
