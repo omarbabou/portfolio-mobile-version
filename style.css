@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+}  
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    color: #172B4D;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #344563;
+}
+
+ h3 span {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #7A869A;
+ }
+
+ .project-card p { 
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #344563;
+}
+
+ .project-card li {
+    display: inline-block; 
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070FF;
+    background: #EBEBFF;
+    padding: 7px;
+    list-style: none;
+    border-radius: 8px;
+}
+
+.project-card ul {
+    padding: 0;
+}
+
+.project-card button {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #396DF2;
+    border: 1px solid #396DF2;
+    padding: 10px;
+    border-radius: 10px;
+}
